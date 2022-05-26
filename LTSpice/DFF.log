@@ -1,0 +1,58 @@
+Circuit: * E:\IIT DELHI\SEMESTER-7\BTP\LTSpice\DFF.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.995033
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 0.999816
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Could not converge to DC with sources off!
+Starting source stepping with srcstepmethod=1
+Could not converge to DC with sources off!
+Pseudo Transient failed in finding the operating point at 0 s.
+Trouble finding operating point....skipping operating point for Transient analysis.
+.step temp=0°C
+to 2e-009
+.step temp=5°C
+.step temp=10°C
+.step temp=15°C
+.step temp=20°C
+.step temp=25°C
+.step temp=30°C
+.step temp=35°C
+.step temp=40°C
+.step temp=45°C
+.step temp=50°C
+
+Date: Thu May 26 11:45:42 2022
+Total elapsed time: 2.260 seconds.
+
+tnom = 27
+temp = 50
+method = modified trap
+totiter = 32609
+traniter = 3952
+tranpoints = 1965
+accept = 1832
+rejected = 344
+matrix size = 9
+fillins = 0
+solver = Normal
+Matrix Compiler1: 152 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2: 383 bytes object code size  0.0/0.1/[0.0]
+
